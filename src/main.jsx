@@ -11,7 +11,7 @@ import "../src/css/index.css";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/react-typing-practice-game/",
     element: <Root />,
     errorElement: <ErrorPage />,
     children: [
@@ -20,15 +20,15 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/tutorial",
+        path: "tutorial",
         element: <Tutorial />,
       },
       {
-        path: "/leaderboard",
+        path: "leaderboard",
         element: <Leaderboard />,
       },
       {
-        path: "/play",
+        path: "play",
         element: <Game />,
       },
     ],

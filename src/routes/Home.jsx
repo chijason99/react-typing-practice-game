@@ -5,13 +5,13 @@ export default function Home() {
     <div className="home">
       <ul className="options-container">
         <li>
-          <Link to="/play">Play</Link>
+          <Link to="/react-typing-practice-game/play">Play</Link>
         </li>
         <li>
-          <Link to="/tutorial">How To Play</Link>
+          <Link to="/react-typing-practice-game/tutorial">How To Play</Link>
         </li>
         <li>
-          <Link to="/leaderboard">Leaderboard</Link>
+          <Link to="/react-typing-practice-game/leaderboard">Leaderboard</Link>
         </li>
       </ul>
     </div>
