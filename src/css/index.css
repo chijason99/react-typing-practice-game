@@ -1,0 +1,41 @@
+@import './home.css';
+@import './buttons.css';
+@import './gameContainer.css';
+@import './alphabet.css';
+@import './alphabetContainer.css';
+:root{
+    --font-color: white;
+}
+
+*,*::before, *::after{
+    box-sizing: border-box;
+    color: var(--font-color);
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 1.5;
+    font-weight: 100;
+}
+
+body{
+    background-color: #009;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px 10px;
+    margin-bottom: 40px;
+}
+
+.errorPage{
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.errorPage p, .errorPage i{
+    padding: 10px;
+}

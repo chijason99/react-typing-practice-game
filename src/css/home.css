@@ -1,0 +1,25 @@
+.options-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.options-container a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    transition: border .3s;
+    width: 200px;
+}
+
+.options-container li{
+    list-style-type: none;
+    padding: 5px 10px;
+    margin-bottom: 30px;
+}
+
+li:hover{
+    border: 1px solid white;
+}
