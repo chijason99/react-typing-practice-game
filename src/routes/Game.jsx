@@ -1,9 +1,9 @@
 import ReturnButton from "../components/ReturnButton";
-import GameContainer from "../components/GameContainer";
+import GameCanvas from "../components/GameCanvas";
 export default function Game() {
   return (
     <div>
-      <GameContainer />
+      <GameCanvas gameWidth={800} gameHeight={600} />
       <ReturnButton />
     </div>
   );

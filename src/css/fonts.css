@@ -1,0 +1,16 @@
+@font-face{
+    font-family: 'Noto Sans TC';
+    src: url(../fonts/Noto_Sans_TC/NotoSansTC-Bold.otf) format("opentype");
+    font-weight:bold;
+}
+
+@font-face{
+    font-family: 'Noto Sans TC';
+    src: url(../fonts/Noto_Sans_TC/NotoSansTC-Medium.otf) format("opentype");
+    font-weight:normal;
+}
+
+@font-face{
+    font-family: 'Open Sans';
+    src: url(../fonts/Open_Sans/static/OpenSans/OpenSans-Light.ttf) format("opentype")
+}
