@@ -1,10 +1,15 @@
 @import './home.css';
 @import './buttons.css';
-@import './gameContainer.css';
+@import './gameCanvas.css';
 @import './alphabet.css';
 @import './alphabetContainer.css';
+@import './gameInfo.css';
+@import './tutorial.css';
+@import './fonts.css';
 :root{
     --font-color: white;
+    --header-font: 'Noto Sans TC', sans-serif;
+    --text-font: 'Open Sans', sans-serif;
 }
 
 *,*::before, *::after{
@@ -20,15 +25,17 @@
 }
 
 body{
-    background-color: #009;
+    background-color: black;
+    font-family: var(--text-font);
 }
 
 h1{
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: bold;
     padding: 20px 10px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    font-family: var(--header-font)
 }
 
 .errorPage{

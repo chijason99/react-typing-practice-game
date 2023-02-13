@@ -20,6 +20,6 @@
     margin-bottom: 30px;
 }
 
-li:hover{
+.options-container li:hover{
     border: 1px solid white;
 }
